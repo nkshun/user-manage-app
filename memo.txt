@@ -1,0 +1,7 @@
+compornentの分割の仕方
+ organismsとは？
+ atomsとは？
+ moleculesとは？
+　UserCardは
+
+初回ロード時に関数の自動実行はuseEffect lesson75
