@@ -16,8 +16,6 @@ export const useAllUsers = () => {
             .get<Array<User>>('https://jsonplaceholder.typicode.com/users/')
             .then(res => {
                 setUsers(res.data)
-                console.log(users)
-                console.log(users)
             })
             .catch(() =>
                 showMessage({ title: 'ユーザー取得に失敗しました。', status: 'error' })
