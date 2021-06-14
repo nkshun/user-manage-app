@@ -17,6 +17,7 @@ export const UserManagement: VFC = memo(() => {
             onOpen();
         },
         [users, onSelectUser, onOpen]
+        // []  //NOTE: ここを設定していないと、usersの初期値が常に使用されるので空っぽになる
     );
 
     useEffect(() => getUsers(), [getUsers])
