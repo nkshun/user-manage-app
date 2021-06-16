@@ -12,8 +12,6 @@ export const UserManagement: VFC = memo(() => {
     const { getUsers, users , loading} = useAllUsers();
     const { onSelectUser, selectedUser } = useSelectUser();
     const { loginUser } = userLoginUser();
-    console.log(loginUser);
-    
 
     const onClickUser = useCallback(
         (id: number) => {
@@ -50,6 +48,7 @@ export const UserManagement: VFC = memo(() => {
                 isOpen={isOpen}
                 onClose={onClose}
                 user={selectedUser}
+                isAdmin={loginUser?.isAdmin}
             />
         </>
     )
