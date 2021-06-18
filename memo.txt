@@ -6,4 +6,5 @@ compornentの分割の仕方
 
 初回ロード時に関数の自動実行はuseEffect lesson75
 
+下記コマンドで作成
 npx create-react-app {プロジェクト名} --template typescript
