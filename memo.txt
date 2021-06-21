@@ -7,3 +7,4 @@ compornentの分割の仕方
 
 下記コマンドで作成
 npx create-react-app {プロジェクト名} --template typescript
+
